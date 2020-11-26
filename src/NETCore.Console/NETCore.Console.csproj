@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SAN.API.Common.Core" Version="1.0.1" />
+    <PackageReference Include="SAN.API.Common.DAO" Version="1.0.1" />
+    <PackageReference Include="SAN.API.Common.Models" Version="1.0.1" />
+    <PackageReference Include="SAN.API.Common.Utility" Version="1.0.1" />
+    <PackageReference Include="TourVisio.Infrastructure" Version="1.0.2" />
+    <PackageReference Include="TourVisio.PriceSearch.Messages" Version="1.0.38" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NETCore.Library001\NETCore.Library001.csproj" />
+  </ItemGroup>
+
+</Project>
